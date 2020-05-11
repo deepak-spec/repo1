@@ -1,0 +1,3 @@
+FROM tomcat:8.5
+
+COPY target/*.war file:///C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.5/webapps/

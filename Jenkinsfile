@@ -49,7 +49,7 @@ pipeline {
             
             steps {
                     rtUpload (
-                    serverId: 'artifactory',
+                    serverId: 'Aritfactory version 7.4',
                     spec: '''{
                   "files": [
                                 {
